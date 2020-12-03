@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>582</width>
+    <height>472</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Fantasy Cricket</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>521</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">Background-color: lightgrey</string>
+    </property>
+    <widget class="QWidget" name="horizontalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>521</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="l1">
+        <property name="font">
+         <font>
+          <family>Lucida Bright</family>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string> Batsmen (BAT) :</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="l2">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: skyblue</string>
+        </property>
+        <property name="text">
+         <string>##</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="l3">
+        <property name="font">
+         <font>
+          <family>Lucida Bright</family>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Bowlers (BOW) :</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="l4">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: skyblue</string>
+        </property>
+        <property name="text">
+         <string>##</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="l5">
+        <property name="font">
+         <font>
+          <family>Lucida Bright</family>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>All Rounder (AR) :</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="l6">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: skyblue</string>
+        </property>
+        <property name="text">
+         <string>##</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="l7">
+        <property name="font">
+         <font>
+          <family>Lucida Bright</family>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Wicket Keeper (WK) :</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="l8">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: skyblue</string>
+        </property>
+        <property name="text">
+         <string>##</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="l9">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string> Your Selections</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>140</y>
+      <width>201</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">Background-color: white</string>
+    </property>
+    <widget class="QWidget" name="horizontalLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QRadioButton" name="rb1">
+        <property name="font">
+         <font>
+          <family>Lucida Bright</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>BAT</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rb2">
+        <property name="font">
+         <font>
+          <family>Lucida Bright</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>BOW</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rb3">
+        <property name="font">
+         <font>
+          <family>Lucida Bright</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>AR</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rb4">
+        <property name="font">
+         <font>
+          <family>Lucida Bright</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>WK</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QListWidget" name="listWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>201</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: white</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>140</y>
+      <width>201</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">Background-color: white</string>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>1</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <layout class="QFormLayout" name="formLayout_3">
+      <item row="0" column="0">
+       <widget class="QLabel" name="l10">
+        <property name="font">
+         <font>
+          <family>Lucida Bright</family>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Team Name : </string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="l11">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: skyblue</string>
+        </property>
+        <property name="text">
+         <string>Displayed Here</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QListWidget" name="listWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>201</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: white</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>110</y>
+      <width>143</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="l12">
+       <property name="font">
+        <font>
+         <family>Lucida Bright</family>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Points Available : </string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="l13">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: skyblue</string>
+       </property>
+       <property name="text">
+        <string>####</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>110</y>
+      <width>119</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout_2">
+     <item row="0" column="1">
+      <widget class="QLabel" name="l15">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: skyblue</string>
+       </property>
+       <property name="text">
+        <string>####</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="l14">
+       <property name="font">
+        <font>
+         <family>Lucida Bright</family>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Points Used : </string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>582</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuManage_Teams">
+    <property name="title">
+     <string>Manage Teams</string>
+    </property>
+    <addaction name="actionNEW_Team"/>
+    <addaction name="actionOPEN_Team"/>
+    <addaction name="actionSAVE_Team"/>
+    <addaction name="actionEVALUATE_Team"/>
+   </widget>
+   <addaction name="menuManage_Teams"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNEW_Team">
+   <property name="text">
+    <string>NEW Team</string>
+   </property>
+  </action>
+  <action name="actionOPEN_Team">
+   <property name="text">
+    <string>OPEN Team</string>
+   </property>
+  </action>
+  <action name="actionSAVE_Team">
+   <property name="text">
+    <string>SAVE Team</string>
+   </property>
+  </action>
+  <action name="actionEVALUATE_Team">
+   <property name="text">
+    <string>EVALUATE Team</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
