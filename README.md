@@ -8,3 +8,7 @@
 3. You will get the fantasy_cricket.exe file and cricket.db file in dist folder.
 4. Open the folder and replace the cricket.db file which has no data with the given cricket.db file in this repo.
 5. You can run the .exe file to execute the program ;)
+
+
+I'm providing the link for the .exe file converted by me which was uploaded to my drive.
+[Fantasy Cricket.zip](https://drive.google.com/file/d/102qjtaWYNgE1YY9Ncqm8y3qFQJvJSH1u/view)
